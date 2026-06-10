@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte & Sustentável - O Desafio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Banner e Cabeçalho -->
+        <header class="main-header">
+            <div class="header-overlay">
+                <h1>🌾 Agro Forte & Sustentável</h1>
+                <p class="subtitle">O Desafio do Equilíbrio entre Produtividade e Planeta</p>
+            </div>
+        </header>
+
+        <!-- Seção de Texto Contextual -->
+        <section class="context-section">
+            <h2>O Grande Dilema do Século XXI</h2>
+            <p>O conceito de <strong>Agro Forte e Sustentável</strong> não é apenas uma escolha ecológica, é uma necessidade de sobrevivência de mercado. A população mundial cresce e exige segurança alimentar, demandando recordes de produtividade. Por outro lado, as mudanças climáticas severas, a perda de biodiversidade e a degradação dos solos provam que produzir a qualquer custo destrói o próprio futuro do negócio agrícola.</p>
+            <blockquote>
+                "Sustentabilidade sem rentabilidade é filantropia. Rentabilidade sem sustentabilidade é roubo do futuro."
+            </blockquote>
+        </section>
+
+        <!-- Imagem Divisória -->
+        <div class="feature-image">
+            <img src="imagemalterada-1024x651-1.jpg" alt="Tecnologia no Campo">
+            <p class="image-caption">Tecnologia e monitoramento de precisão: aliados da conservação ambiental.</p>
+        </div>
+
+        <!-- Painel de Status -->
+        <section class="dashboard">
+            <div class="card" id="safra-card">
+                <h3>Safra Atual</h3>
+                <p id="safra-atual">1 / 5</p>
+            </div>
+            
+            <div class="card">
+                <h3>Finanças (Caixa)</h3>
+                <p id="caixa-valor" class="positivo">R$ 100.000,00</p>
+            </div>
+
+            <div class="card">
+                <h3>Produtividade</h3>
+                <div class="progress-bar">
+                    <div id="bar-produtividade" class="progress fill-produtividade" style="width: 50%;"></div>
+                </div>
+                <span id="txt-produtividade">50%</span>
+            </div>
+
+            <div class="card">
+                <h3>Sustentabilidade</h3>
+                <div class="progress-bar">
+                    <div id="bar-sustentabilidade" class="progress fill-sustentabilidade" style="width: 50%;"></div>
+                </div>
+                <span id="txt-sustentabilidade">50%</span>
+            </div>
+        </section>
+
+        <!-- Mural de Eventos do Clima/Mercado -->
+        <section class="alert-box" id="mural-eventos">
+            <p><strong>Boletim de Início:</strong> As máquinas estão prontas. Escolha com sabedoria a estratégia para esta safra.</p>
+        </section>
+
+        <!-- Painel de Decisões -->
+        <section class="actions" id="painel-acoes">
+            <h2>Escolha o Manejo da Safra:</h2>
+            <div class="options-grid">
+                <div class="option-card">
+                    <img src="agriculture-drone-flying-over-rice-field-to-sprayed-chemical-fertilizer-technology-concept-big-266640974 (1).webp" alt="Defensivos agrícolas">
+                    <button onclick="jogarRodada(1)" class="btn btn-danger">
+                        <strong>1. Intensivo Tradicional</strong>
+                        <span>Foco em lucro rápido. Uso massivo de químicos sintéticos.</span>
+                    </button>
+                </div>
+                
+                <div class="option-card">
+                    <img src= "manejo-integrado-de-pragas-mip-uma-abordagem-estrategica-e-sustentavel.webp"="Manejo biológico integrado">
+                    <button onclick="jogarRodada(2)" class="btn btn-warning">
+                        <strong>2. Manejo Integrado (MIP)</strong>
+                        <span>Uso de bioinsumos. Equilíbrio tecnológico e proteção da fauna local.</span>
+                    </button>
+                </div>
+                
+                <div class="option-card">
+                    <img src="1-plantas-de-cobertura_Ibirama_mucuna_Juliane-knapik.jpg">
+                    <button onclick="jogarRodada(3)" class="btn btn-success">
+                        <strong>3. Agroecologia Regenerativa</strong>
+                        <span>Foco total na saúde do solo, plantio direto e árvores nativas integradas.</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tela de Fim de Jogo (Oculta por padrão) -->
+        <section class="game-over hidden" id="tela-final">
+            <h2 id="resultado-titulo">Fim de Jogo</h2>
+            <p id="resultado-mensagem"></p>
+            <button onclick="reiniciarJogo()" class="btn-restart">Reiniciar Simulação</button>
+        </section>
+        
+    </div>
+    <a href="https://druget.com.br/defensivosagricolas/" target="_blank">Fonte da imagem</a>
+    <a href="https://www.dreamstime.com/agriculture-drone-flying-over-rice-field-to-sprayed-chemical-fertilizer-technology-concept-big-image266640974" target="_blank">Fonte da imagem</a>
+    <a href="https://aegro.com.br/blog/manejo-integrado-de-pragas/"h.ecycle.com.br/cidades-verdes/" target="_blank">Fonte da imagem</a>
+    <a href="V" target="_blank">Fonte da imagem</a>
+    
+    <script src="script.js"></script>
+</body>
+</html>
